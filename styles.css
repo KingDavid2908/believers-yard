@@ -209,7 +209,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 70vh;
   }
   .main__container {
     grid-template-columns: 1fr 1fr;
