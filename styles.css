@@ -216,7 +216,7 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 90vh;
+    height: 50vh;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -238,6 +238,10 @@
   .main__logo {
     width: 70%;
   }
+
+  .main__message__container {
+    font-size: 1rem;
+  }
 }
 
 .main__logo__container {
@@ -255,7 +259,7 @@
 }
 
 .main__message__container {
-  font-size: 2rem;
+  font-size: 1rem;
   justify-content: center;
   text-align: center;
   width: 80%;
@@ -292,10 +296,11 @@
 
   .profile__card h1 {
     margin-bottom: 5vh;
+    font-size: 1.5rem;
   }
 
   .profile__card {
-    font-size: 1.5rem;
+    font-size: 1rem;
     width: 90%;
     margin: 5%;
   }
