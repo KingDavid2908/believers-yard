@@ -221,6 +221,7 @@
     width: 100%;
     max-width: 1300px;
     padding: 0;
+    font-size: 1rem;
   }
 
   .main__content {
@@ -238,10 +239,9 @@
   .main__logo {
     width: 70%;
   }
-
-  .main__message__container {
-    font-size: 1rem;
-  }
+}
+.main__container {
+  font-size: 2rem;
 }
 
 .main__logo__container {
@@ -259,7 +259,6 @@
 }
 
 .main__message__container {
-  font-size: 2rem;
   justify-content: center;
   text-align: center;
   width: 80%;
