@@ -84,7 +84,6 @@
     height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
     padding: 0;
   }
 
@@ -345,6 +344,7 @@
 
 @media screen and (max-width: 1080px) {
   .card {
-    padding: 50px;
+    padding: 50px 20px;
+    height: 500px;
   }
 }
