@@ -269,7 +269,7 @@
 /* Who we are Section CSS */
 .profile__card {
   font-family: "Roboto", "Inter", "Kumbh Sans";
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 10vh 30px;
   width: 80%;
   margin: 10%;
@@ -279,22 +279,38 @@
   justify-self: center;
 }
 
-.profile__card h1 {
+.card__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+  position: absolute;
+  text-align: center;
+}
+
+.card__container h1 {
+  font-size: 3rem;
   margin-bottom: 10vh;
 }
 
+.card__container h2 {
+  font-size: 2rem;
+  margin-bottom: 5vh;
+}
+
 @media screen and (max-width: 1080px) {
-  .whoweare__container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f4f4f4;
-    position: absolute;
+  .card__container {
     top: 150vh;
   }
 
-  .profile__card h1 {
+  .card__container h1 {
     margin-bottom: 5vh;
+    font-size: 2rem;
+  }
+
+  .card__container h2 {
+    margin-bottom: 2vh;
     font-size: 1.5rem;
   }
 
@@ -302,5 +318,34 @@
     font-size: 1rem;
     width: 90%;
     margin: 5%;
+    text-align: center;
+  }
+}
+
+/* Community and Objectives Section */
+.card__deck {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card__deck h1 {
+  margin-top: 10vh;
+}
+
+.card {
+  border: 10px groove #035762;
+  margin: 2vh auto;
+  height: 400px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1080px) {
+  .card {
+    padding: 50px;
+    height: 250px;
   }
 }
