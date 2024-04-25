@@ -378,3 +378,15 @@ p {
   border-radius: 50%;
   margin: 0;
 }
+
+@media screen and (max-width: 960px) {
+  .objectives__container h2,
+  p {
+    margin: 10px;
+  }
+
+  .logo__container {
+    width: 75px;
+    height: 50px;
+  }
+}
